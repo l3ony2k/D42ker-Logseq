@@ -26,7 +26,7 @@ Copy and paste the contents of `custom.css` file into your `logseq/custom.css` f
 
 Or
 
-Add the following line to your logseq/custom.css file.
+Add the following line to your `logseq/custom.css` file.
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/LeonWong0609/logseq-default-dark-0-saturation@main/custom.css');
