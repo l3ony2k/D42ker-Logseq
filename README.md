@@ -15,6 +15,8 @@ All these changes are based on default dark theme of Logseq.
   - …
 - Added highlight to focused block
 - Added 🔴 🟡 🟢 to `[#A]` `[#B]` `[#C]`, respectively
+- Colorful highlight in the [Yin and Yang Obsidian theme](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme)
+  - thanks to @bettyzhang ([Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/850029658351468574))
 - Lightened table background
 - Fixed some CodeMirror issues
 - Red accent color in light theme

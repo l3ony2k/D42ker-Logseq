@@ -2049,3 +2049,12 @@ html[data-theme=light] #right-sidebar .reveal h1,html[data-theme=light] #right-s
 .priority[href="#/page/B" i]::before{content:"🟡";margin-right:2px}
 .priority[href="#/page/C" i]::before{content:"🟢";margin-right:2px}
 .cp__right-sidebar-inner{padding-top:0;position:relative;min-height:100%;overflow-x:scroll;overflow-y:auto}
+mark.yellow{ background-color: #fff3a3; }
+mark.pink{ background-color: #f2b3cf;}
+mark.blue{ background-color: #b5d3ff; }
+mark.green{ background-color: #bbfabb; }
+mark.red{ background-color: #ff5582; }
+mark.grey{ background-color: #cacfd9;  }
+mark.gray{ background-color: #cacfd9;  }
+mark.orange{ background-color: #ffb86c;  }
+mark.purple{ background-color: #d2b3ff ;  }
