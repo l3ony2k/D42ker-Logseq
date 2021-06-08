@@ -22,6 +22,7 @@ All these changes are based on default dark theme of Logseq.
     <summary>Usage</summary>
     
       - add following code to your `config.edn`
+        
         ```
         ["Blue Highlighter" [[:editor/input "<mark class='blue'></mark>" {:backward-pos 7}]]]
         ["Green Highlighter" [[:editor/input "<mark class='green'></mark>" {:backward-pos 7}]]]
@@ -31,9 +32,15 @@ All these changes are based on default dark theme of Logseq.
         ["Red Highlighter" [[:editor/input "<mark class='red'></mark>" {:backward-pos 7}]]]
         ["Yellow Highlighter" [[:editor/input "<mark class='yellow'></mark>" {:backward-pos 7}]]]
         ```
+        
       - your `config.edn` should look like this
+        
         ![image](https://user-images.githubusercontent.com/58762081/121205590-60dca300-c8aa-11eb-99c4-63a2ecc05976.png)
+        
       - use `/blue` then select `Blue Highlighter` to apply
+        
+        ![image](https://user-images.githubusercontent.com/58762081/121207236-b5345280-c8ab-11eb-9d35-5c37469d659e.png)
+        
     </details>
 
 - Lightened table background
