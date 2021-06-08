@@ -17,6 +17,25 @@ All these changes are based on default dark theme of Logseq.
 - Added 🔴 🟡 🟢 to `[#A]` `[#B]` `[#C]`, respectively
 - Colorful highlight (from [Yin and Yang Obsidian theme](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme))
   - thanks to @bettyzhang ([Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/850029658351468574))
+    
+  - <details>
+    <summary>Usage</summary>
+    
+      - add following code to your `config.edn`
+        ```
+        ["Blue Highlighter" [[:editor/input "<mark class='blue'></mark>" {:backward-pos 7}]]]
+        ["Green Highlighter" [[:editor/input "<mark class='green'></mark>" {:backward-pos 7}]]]
+        ["Gray Highlighter" [[:editor/input "<mark class='gray'></mark>" {:backward-pos 7}]]]
+        ["Orange Highlighter" [[:editor/input "<mark class='orange'></mark>" {:backward-pos 7}]]]
+        ["Pink Highlighter" [[:editor/input "<mark class='pink'></mark>" {:backward-pos 7}]]]
+        ["Red Highlighter" [[:editor/input "<mark class='red'></mark>" {:backward-pos 7}]]]
+        ["Yellow Highlighter" [[:editor/input "<mark class='yellow'></mark>" {:backward-pos 7}]]]
+        ```
+      - your `config.edn` should look like this
+        ![image](https://user-images.githubusercontent.com/58762081/121205590-60dca300-c8aa-11eb-99c4-63a2ecc05976.png)
+      - use `/blue` then select `Blue Highlighter` to apply
+    </details>
+
 - Lightened table background
 - Fixed some CodeMirror issues
 - Red accent color in light theme
