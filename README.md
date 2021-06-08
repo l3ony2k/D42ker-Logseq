@@ -26,11 +26,13 @@ All these changes are based on default dark theme of Logseq.
         ```
         ["Blue Highlighter" [[:editor/input "<mark class='blue'></mark>" {:backward-pos 7}]]]
         ["Green Highlighter" [[:editor/input "<mark class='green'></mark>" {:backward-pos 7}]]]
-        ["Gray Highlighter" [[:editor/input "<mark class='gray'></mark>" {:backward-pos 7}]]]
+        ["Gray Highlighter" [[:edior/input "<mark class='gray'></mark>" {:backward-pos 7}]]]
+        ["Grey Highlighter" [[:editor/input "<mark class='grey'></mark>" {:backward-pos 7}]]]
         ["Orange Highlighter" [[:editor/input "<mark class='orange'></mark>" {:backward-pos 7}]]]
         ["Pink Highlighter" [[:editor/input "<mark class='pink'></mark>" {:backward-pos 7}]]]
         ["Red Highlighter" [[:editor/input "<mark class='red'></mark>" {:backward-pos 7}]]]
         ["Yellow Highlighter" [[:editor/input "<mark class='yellow'></mark>" {:backward-pos 7}]]]
+        ["Purple Highlighter" [[:editor/input "<mark class='purple'></mark>" {:backward-pos 7}]]]
         ```
         
       - your `config.edn` should look like this
