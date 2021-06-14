@@ -1337,7 +1337,7 @@ mark{background:#653434;color:#fbfbfb;padding:2px 4px;border-radius:3px}
 .page-reference .bracket{opacity:.3}
 .block-ref{padding:2px 0 2px 0;display:inline}
 .block-ref .block-ref{padding:6px 5px;border:0}
-:not(pre)>code{border-radius:3px;font-size:.9em;font-family:MonoLisa,'Fira Code',Monaco,Menlo,Consolas,'COURIER NEW',monospace;padding:3px 5px!important}
+:not(pre)>code{border-radius:3px;font-size:.9em;font-family:MonoLisa,'Fira Code',Monaco,Menlo,Consolas,'COURIER NEW',monospace;padding:1px 3px!important}
 a{transition:.3s}
 a.tooltip-priority{transition:none}
 .page-reference:hover{background:var(--ls-secondary-background-color)}
