@@ -2041,7 +2041,7 @@ html[data-theme=light] #right-sidebar .reveal h1,html[data-theme=light] #right-s
 .sm\:text-sm{font-size:.875rem;line-height:1.25rem}
 .sm\:leading-5{line-height:1.25rem}
 }@media(min-width:768px){.md\:hidden{display:none}
-}#sidebar-nav-wrapper{flex:0;border-right:1px solid #1a1a1a!important}
+}#sidebar-nav-wrapper{flex:0;border-right:0px solid #1a1a1a!important}
 .ls-block .bullet{background-color:#916060}
 .ls-block:not(:focus-within) .bullet{background-color:var(--ls-block-bullet-color)}
 .ls-block>.block-children:focus-within{border-left-color:#916060;border-left-width:1px}
