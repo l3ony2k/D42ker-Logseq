@@ -318,15 +318,15 @@ body{background:#191919;background-color:#191919}
 .reveal sub{vertical-align:sub;font-size:smaller}
 .reveal small{display:inline-block;font-size:.6em;line-height:1.2em;vertical-align:top}
 .reveal small *{vertical-align:top}
-.reveal a{color:#42affa;text-decoration:none;-webkit-transition:color .15s ease;-moz-transition:color .15s ease;transition:color .15s ease}
-.reveal a:hover{color:#8dcffc;text-shadow:none;border:0}
+.reveal a{color:#DB9090;text-decoration:none;-webkit-transition:color .15s ease;-moz-transition:color .15s ease;transition:color .15s ease}
+.reveal a:hover{color:#E8D0D0;text-shadow:none;border:0}
 .reveal .roll span:after{color:#fff;background:#068de9}
 .reveal section img{margin:15px 0;background:rgba(255,255,255,.12);border:4px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.15)}
 .reveal section img.plain{border:0;box-shadow:none}
 .reveal a img{-webkit-transition:all .15s linear;-moz-transition:all .15s linear;transition:all .15s linear}
-.reveal a:hover img{background:rgba(255,255,255,.2);border-color:#42affa;box-shadow:0 0 20px rgba(0,0,0,.55)}
-.reveal .controls{color:#42affa}
-.reveal .progress{background:rgba(0,0,0,.2);color:#42affa}
+.reveal a:hover img{background:rgba(255,255,255,.2);border-color:#653434;box-shadow:0 0 20px rgba(0,0,0,.55)}
+.reveal .controls{color:#653434}
+.reveal .progress{background:rgba(0,0,0,.2);color:#653434}
 .reveal .progress span{-webkit-transition:width .8s cubic-bezier(.26,.86,.44,.985);-moz-transition:width .8s cubic-bezier(.26,.86,.44,.985);transition:width .8s cubic-bezier(.26,.86,.44,.985)}
 @media print{.backgrounds{background-color:#191919}
 }@font-face{font-family:Virgil;src:url(../fonts/Virgil.woff2);font-display:swap}
