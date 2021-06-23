@@ -64,6 +64,4 @@ Add the following line to your `logseq/custom.css` file.
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/58762081/120082075-8839b000-c0f3-11eb-8598-eb0259ecfec0.png)
-
-![image](https://user-images.githubusercontent.com/58762081/120082135-d2229600-c0f3-11eb-8168-9d88fc817345.png)
+![image](https://user-images.githubusercontent.com/58762081/123148201-86fd6800-d492-11eb-9550-e3d4a442d1fc.png)
