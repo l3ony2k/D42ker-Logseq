@@ -1544,7 +1544,7 @@ html[data-theme=light] .cp__right-sidebar .block-content{--ls-page-inline-code-b
 .settings-modal{margin:-15px}
 .cp__sidebar-main-layout{background-color:var(--ls-primary-background-color)}
 .cp__sidebar-main-content{max-width:var(--ls-main-content-max-width);flex:1}
-.cp__sidebar-main-content h1.title{padding-right:15px}
+.cp__sidebar-main-content h1.title{padding-right:15px;padding-left:15px;margin-bottom:15px;}
 .cp__sidebar-help-docs td{word-break:break-all}
 .cp__sidebar-help-docs th{width:80%}
 .cp__sidebar-help-docs{margin-top:.25rem}
@@ -1932,6 +1932,7 @@ html[data-theme=light] #right-sidebar .reveal h1,html[data-theme=light] #right-s
 .pr-3{padding-right:.75rem}
 .pt-4{padding-top:1rem}
 .pb-24{padding-bottom:6rem}
+.pl-4.pr-4 {background-color:#252525 !important;}
 .text-center{text-align:center}
 .text-right{text-align:right}
 .text-left{text-align:left}
