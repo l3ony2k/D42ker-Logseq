@@ -9,7 +9,6 @@
 .CodeMirror-line::-moz-selection,.CodeMirror-line>span::-moz-selection,.CodeMirror-line>span>span::-moz-selection{background:#a8a8a8}
 
 html[data-theme=dark] .CodeMirror{color:#cccccc;background-color:#212121}
-html[data-theme=dark] .CodeMirror .CodeMirror-widget{text-shadow:none}
 html[data-theme=dark] .CodeMirror .cm-tab:before{content:"→";color:#505050;position:absolute}
 html[data-theme=dark] .CodeMirror .CodeMirror-selected{background:#613939}
 html[data-theme=dark] .CodeMirror .CodeMirror-gutters{border-right:1px solid}
