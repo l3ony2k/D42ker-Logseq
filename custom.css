@@ -2060,3 +2060,4 @@ mark.gray{background-color:#808080;}
 mark.orange{background-color:#db954a;}
 mark.purple{background-color:#9666db;}
 del{opacity:0.6;}
+.block-editor textarea {border-radius:2px;outline:.5px solid #916060;outline-offset:1px;}
