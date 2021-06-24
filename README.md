@@ -2,6 +2,8 @@
 
 Default [Logseq](https://logseq.com/) dark theme with 0 saturation background and some other tweaks.
 
+Most of the enhanced features were inspired by great guys on [Logseq Discord server](https://discord.gg/KpN4eHY).
+
 ## Modifications
 
 All these changes are based on default dark theme of Logseq.
@@ -13,8 +15,8 @@ All these changes are based on default dark theme of Logseq.
   - searchbar
   - checkbox
   - …
-- Added highlight to focused block
-- Added 🔴 🟡 🟢 to `[#A]` `[#B]` `[#C]`, respectively
+- Highlight current focused block (Thanks to @cannibalox)
+- Added 🔴 🟡 🟢 to `[#A]` `[#B]` `[#C]`, respectively (Thanks to @pengx17)
 - Colorful highlight (from [Yin and Yang Obsidian theme](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme))
   - thanks to @bettyzhang ([Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/850029658351468574))
     
@@ -46,7 +48,8 @@ All these changes are based on default dark theme of Logseq.
     </details>
 
 - Lightened table background
-- Fixed some CodeMirror issues
+- ~~Fixed some CodeMirror issues~~
+- Thin outline around block editor text area (Thanks to @sabre23t [Discord](https://discord.com/channels/725182569297215569/752845138148982877/857463855948103701))
 - Red accent color in light theme
   - I seldom use light theme, so it might be buggy 😢
 
