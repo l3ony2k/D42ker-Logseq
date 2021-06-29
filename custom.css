@@ -124,7 +124,7 @@ html[data-theme=dark] .cp__right-sidebar .CodeMirror .CodeMirror-selected {
 }
 
 
-/* table tweaks */
+/* table tweaks (colors & reduce margin) */
 
 .dark-theme tr:nth-child(odd) {
     background: #212121
@@ -132,6 +132,24 @@ html[data-theme=dark] .cp__right-sidebar .CodeMirror .CodeMirror-selected {
 
 table {
     margin: .3rem 0
+}
+
+
+/* embeded page tweaks (reduce margin) */
+
+.embed-page {
+    margin: .3rem 0;
+    padding: .5rem;
+}
+
+
+/* quote tweaks (reduce margin & padding) */
+
+blockquote {
+    padding: 8px 12px;
+    border-left: 5px solid;
+    border-left-color: var(--ls-page-blockquote-border-color,#d3d3d3);
+    margin: .3rem 0 !important;
 }
 
 
@@ -479,4 +497,19 @@ del {
     border-radius: 2px;
     outline: .5px solid #916060;
     outline-offset: 1px
+}
+
+
+/* add blur and shadow to both headers */
+
+#head {
+    backdrop-filter: blur(6px);
+    background-color: #121212cc !important;
+    box-shadow: #121212cc 0 3px 5px 0;
+}
+
+.cp__right-sidebar-topbar.flex.flex-row.justify-between.items-center.px-4.h-12 {
+    background-color: #1A1A1Acc !important;
+    backdrop-filter: blur(6px);
+    box-shadow: #1a1a1acc 0 3px 5px 0;
 }
