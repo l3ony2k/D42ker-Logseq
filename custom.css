@@ -303,7 +303,8 @@ strong {
 mark {
     background: var(--mark-bg);
     color: var(--ls-primary-text-color);
-    padding: 1px 4px;
+    padding: 1px 2px;
+    margin: 0 2px;
     border-radius: 3px;
 }
 
@@ -523,13 +524,27 @@ del {
 /* add blur and shadow to both headers */
 
 #head {
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(15px);
     background-color: var(--head-bg) !important;
     box-shadow: var(--head-bg) 0 3px 5px 0;
 }
 
 .cp__right-sidebar-topbar.flex.flex-row.justify-between.items-center.px-4.h-12 {
     background-color: var(--right-sidebar-topbar-bg) !important;
+    backdrop-filter: blur(15px);
+    box-shadow: var(--right-sidebar-topbar-bg) 0 3px 5px 0;
+}
+
+
+/* sticky sidebar headers */
+
+.sidebar-item.content > div > div:first-of-type {
+    position: sticky;
+    top: 3rem;
+    padding: .6rem;
+    margin: 0 -1rem;
+    z-index: 100;
+    background-color: var(--right-sidebar-topbar-bg) /*var(--ls-secondary-background-color)*/ !important;
     backdrop-filter: blur(6px);
     box-shadow: var(--right-sidebar-topbar-bg) 0 3px 5px 0;
 }
