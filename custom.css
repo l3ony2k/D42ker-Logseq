@@ -548,3 +548,18 @@ del {
     backdrop-filter: blur(6px);
     box-shadow: var(--right-sidebar-topbar-bg) 0 3px 5px 0;
 }
+
+
+/* expand repo name */
+
+#repo-name {
+    max-width: 20ch;
+    height: 1.1rem;
+}
+
+
+/* less contrast for query title 0.2.5 */
+
+.custom-query-title {
+    opacity: .5;
+}
