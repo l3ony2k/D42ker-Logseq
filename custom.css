@@ -181,8 +181,8 @@ blockquote {
     --ls-table-tr-even-background-color: #1b1b1b;
     --ls-active-primary-color: #c28e8e;
     --ls-active-secondary-color: #e8d0d0;
-    --ls-block-properties-background-color: #2a2a2a;
-    --ls-page-properties-background-color: #2a2a2a;
+    --ls-block-properties-background-color: #202020;
+    --ls-page-properties-background-color: #202020;
     --ls-block-ref-link-text-color: #916060;
     --ls-search-background-color: linear-gradient(to right, #382020 0, #3a2727 200px, #1a1a1a 100%);
     --ls-border-color: #303030;
@@ -428,13 +428,14 @@ mark.purple {
     margin-bottom: 15px;
 }
 
-/* .cp__right-sidebar-inner {
+/************************************************************
+.cp__right-sidebar-inner {
     padding-top: 0;
     position: relative;
     min-height: 100%;
     overflow-x: scroll;
     overflow-y: auto
-} */
+} ***********************************************************/
 
 
 /* hide help btn */
@@ -446,13 +447,13 @@ mark.purple {
 
 /* .cp__right-sidebar pre.CodeMirror-line{background:#fff} */
 
-#ui__ac-inner {
+/*#ui__ac-inner {
     max-height: 400px;
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
     -webkit-overflow-scrolling: touch
-}
+}*/
 
 .pl-4.pr-4 {
     background-color: #303030 !important;
@@ -540,7 +541,7 @@ del {
 
 .sidebar-item.content > div > div:first-of-type {
     position: sticky;
-    top: 3rem;
+    top: 0rem;
     padding: .6rem;
     margin: 0 -1rem;
     z-index: 100;
@@ -550,16 +551,36 @@ del {
 }
 
 
-/* expand repo name */
-
-#repo-name {
-    max-width: 20ch;
-    height: 1.1rem;
-}
-
-
 /* less contrast for query title 0.2.5 */
 
 .custom-query-title {
     opacity: .5;
+}
+
+
+/* properties area tweaks */
+
+.page-properties {
+    opacity: 0.5;
+    background: none;
+    font-style: italic;
+    border-bottom: solid 1px #202020;
+    margin: 0 0 5px 0;
+}
+
+.block-properties {
+    padding: 0;
+}
+
+
+/* sidebar resizer */
+
+.cp__right-sidebar-inner .resizer {
+    width: 8px;
+    cursor: ew-resize !important;
+}
+
+.resizer:hover {
+    background: #aaaaaa20;
+    z-index: 9999999;
 }
