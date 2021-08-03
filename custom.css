@@ -134,15 +134,15 @@ table {
 
 th {
     border-bottom: 1px solid var(--ls-border-color) !important;;
-    font-style: italic;
-    font-size: 1em !important;
+    /*font-style: italic;*/
+    font-size: .88rem !important;
     font-weight: bold;
     padding: 8px;
     background: var(--ls-table-tr-even-background-color);
 }
 
 td {
-    font-size: .95rem;
+    font-size: 1rem;
     border: none;
 }
 
@@ -184,7 +184,7 @@ blockquote {
     --ls-block-properties-background-color: #202020;
     --ls-page-properties-background-color: #202020;
     --ls-block-ref-link-text-color: #916060;
-    --ls-search-background-color: linear-gradient(to right, #382020 0, #3a2727 200px, #1a1a1a 100%);
+    --ls-search-background-color: linear-gradient(to right, #382020 0,/* #38202080 150px, */#121212 100%);
     --ls-border-color: #303030;
     --ls-secondary-border-color: #771212;
     --ls-guideline-color: #303030;
@@ -573,6 +573,21 @@ del {
 }
 
 
+/* custom query tweaks */
+
+.query-title {
+    background: none !important;
+    font-size: .9rem;
+    font-style: italic;
+    font-weight: bold !important;
+    color: var(--ls-link-ref-text-color);
+}
+
+.custom-query {
+    margin-top: 0 !important;
+}
+
+
 /* sidebar resizer */
 
 .cp__right-sidebar-inner .resizer {
@@ -583,4 +598,11 @@ del {
 .resizer:hover {
     background: #aaaaaa20;
     z-index: 9999999;
+}
+
+
+/* hr margin */
+
+hr {
+    margin: 0.7rem 0;
 }
