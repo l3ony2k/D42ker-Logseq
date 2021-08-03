@@ -576,11 +576,9 @@ del {
 /* custom query tweaks */
 
 .query-title {
-    background: none !important;
-    font-size: .9rem;
-    font-style: italic;
-    font-weight: bold !important;
-    color: var(--ls-link-ref-text-color);
+    background: #2e2e2e !important;
+    font-size: .88em;
+    font-family: 'fira code';
 }
 
 .custom-query {
