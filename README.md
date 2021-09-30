@@ -1,4 +1,6 @@
-# logseq-default-dark-0-saturation
+# D42ker Logseq Theme
+
+(logseq-default-dark-0-saturation)
 
 Default [Logseq](https://logseq.com/) dark theme with 0 saturation background and some other tweaks.
 
@@ -15,7 +17,7 @@ All these changes are based on default dark theme of Logseq.
   - searchbar
   - checkbox
   - …
-- Highlight current focused block (Thanks to @cannibalox)
+- Highlight current focused block (Thanks to @cannibalox, @pengx17)
 - Added 🔴 🟡 🟢 to `[#A]` `[#B]` `[#C]`, respectively (Thanks to @pengx17)
 - Colorful highlight (from [Yin and Yang Obsidian theme](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme))
   - thanks to @bettyzhang ([Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/850029658351468574))
@@ -82,7 +84,7 @@ Add the following line to your `logseq/custom.css` file.
   - 搜索框
   - 待办列表
   - …
-- 为当前聚焦的 block 增加高亮 (Thanks to @cannibalox)
+- 为当前聚焦的 block 增加高亮 (Thanks to @cannibalox, @pengx17)
 - 在 `[#A]` `[#B]` `[#C]` 优先级的任务前分别添加 🔴 🟡 🟢 (Thanks to @pengx17)
 - 多彩高亮 (from [Yin and Yang Obsidian theme](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme))
   - thanks to @bettyzhang ([Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/850029658351468574))
