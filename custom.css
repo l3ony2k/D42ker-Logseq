@@ -1,6 +1,7 @@
 /* moded with `bullet_threading.css` by @pengx17 
 https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 
+
 :root {
   --ls-block-bullet-active-color: #916060;
   --ls-block-bullet-threading-width: 1.5px;
@@ -455,11 +456,11 @@ mark.purple {
 }
 
 /* .dnd-separator{border-bottom:3px solid transparent}
-    .dnd-separator-cur{border-bottom:3px solid #999} */
+  .dnd-separator-cur{border-bottom:3px solid #999} */
 
 /* what TH is this…
-    .resize{resize:both;overflow:hidden}
-    .cp__header-logo,.fade-link{opacity:.3;transition:.3s} */
+  .resize{resize:both;overflow:hidden}
+  .cp__header-logo,.fade-link{opacity:.3;transition:.3s} */
 
 /* decrease ((block reference)) padding */
 
@@ -487,10 +488,10 @@ mark.purple {
 }
 
 /* found new replacement
-    .marker-switch{padding:2px 4px;opacity:.5;font-size:85%;margin:0 2px 0 0;font-weight:600;display:inline!important;border:0 solid!important} */
+  .marker-switch{padding:2px 4px;opacity:.5;font-size:85%;margin:0 2px 0 0;font-weight:600;display:inline!important;border:0 solid!important} */
 
 /* new color 
-    #repo-name{vertical-align:middle;display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:7ch} */
+  #repo-name{vertical-align:middle;display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:7ch} */
 
 /* menu btn tweaks */
 
@@ -529,13 +530,13 @@ mark.purple {
 }
 
 /************************************************************
-    .cp__right-sidebar-inner {
-        padding-top: 0;
-        position: relative;
-        min-height: 100%;
-        overflow-x: scroll;
-        overflow-y: auto
-    } ***********************************************************/
+  .cp__right-sidebar-inner {
+      padding-top: 0;
+      position: relative;
+      min-height: 100%;
+      overflow-x: scroll;
+      overflow-y: auto
+  } ***********************************************************/
 
 /* hide help btn */
 
@@ -546,19 +547,19 @@ mark.purple {
 /* .cp__right-sidebar pre.CodeMirror-line{background:#fff} */
 
 /*#ui__ac-inner {
-        max-height: 400px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        position: relative;
-        -webkit-overflow-scrolling: touch
-    }*/
+      max-height: 400px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      position: relative;
+      -webkit-overflow-scrolling: touch
+  }*/
 
 .pl-4.pr-4 {
   background-color: #303030 !important;
 }
 
 /* no idea wat is this
-    .dark .dark\:text-gray-300{--tw-text-opacity:1;color:rgba(212,212,212,var(--tw-text-opacity))} */
+  .dark .dark\:text-gray-300{--tw-text-opacity:1;color:rgba(212,212,212,var(--tw-text-opacity))} */
 
 /* hide weird thin line in main page */
 
@@ -570,17 +571,17 @@ mark.purple {
 /* highlight current focused block */
 
 /*.ls-block .bullet {
-        background-color: #916060
-    }
-    
-    .ls-block:not(:focus-within) .bullet {
-        background-color: var(--ls-block-bullet-color)
-    }
-    
-    .ls-block>.block-children:focus-within {
-        border-left-color: #916060;
-        border-left-width: 1px
-    }*/
+      background-color: #916060
+  }
+  
+  .ls-block:not(:focus-within) .bullet {
+      background-color: var(--ls-block-bullet-color)
+  }
+  
+  .ls-block>.block-children:focus-within {
+      border-left-color: #916060;
+      border-left-width: 1px
+  }*/
 
 /* add traffic lights to prioritized tasks */
 
@@ -608,10 +609,10 @@ del {
 /* add thin outline to current editing block */
 
 /*.block-editor textarea {
-        border-radius: 2px;
-        outline: .5px solid #916060;
-        outline-offset: 1px
-    }*/
+      border-radius: 2px;
+      outline: .5px solid #916060;
+      outline-offset: 1px
+  }*/
 
 /* add blur and shadow to both headers */
 
@@ -697,4 +698,9 @@ hr {
 
 .add-button-link:hover svg.add-button {
   opacity: 0.2;
+}
+
+/* new right sidebar btn color tweaks */
+.cp__header-logo, .fade-link {
+    color: var(--ls-link-text-color,#045591) !important;
 }
