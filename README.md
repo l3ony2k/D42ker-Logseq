@@ -71,7 +71,7 @@ Add the following line to your `logseq/custom.css` file.
 
 默认的 [Logseq](https://logseq.com/) 深色主题，0 饱和度的背景和其他一些调整。
 
-大多数增强功能的灵感都来自 [Logseq Discord服务器](https://discord.gg/KpN4eHY) 的朋友们。
+大多数增强功能的灵感都来自 [Logseq Discord 服务器](https://discord.gg/KpN4eHY) 的朋友们。
 
 ## 修改
 
