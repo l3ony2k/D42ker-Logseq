@@ -3,8 +3,8 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 
 
 :root {
-  --ls-block-bullet-active-color: #916060;
-  --ls-block-bullet-threading-width: 1.5px;
+  --ls-block-bullet-active-color: var(--ls-link-text-color);
+  --ls-block-bullet-threading-width: 1px;
 }
 
 .block-control {
@@ -23,7 +23,6 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
   height: 14px !important;
   width: 14px !important;
   position: relative;
-  transform: translateX(-1.5px);
 }
 
 /* Block bullet path should only show in a nested block */
@@ -34,7 +33,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 }
 .ls-block .bullet {
   background-color: var(--ls-block-bullet-active-color);
-  box-shadow: 0 0 0 0px var(--ls-block-bullet-active-color);
+  box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
 }
 .ls-block div.items-center {
   position: relative;
@@ -62,7 +61,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
   border-bottom: var(--ls-block-bullet-threading-width) solid transparent;
-  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 6px;
 }
 .ls-block .ls-block:focus-within > div > div.items-center::before {
   border-color: var(--ls-block-bullet-active-color);
@@ -79,22 +78,19 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 .ls-block .block-children:focus-within > .ls-block:not(:focus-within)::before {
   border-color: var(--ls-block-bullet-active-color);
 }
-.ls-block
-  .block-children:focus-within
-  > .ls-block:focus-within
-  ~ .ls-block::before {
+.ls-block .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
   border-color: transparent;
 }
-.ls-block[haschild="true"] > div > .block-content-wrapper::before {
+.ls-block[haschild=true] > div > .block-content-wrapper::before {
   pointer-events: none;
   content: "";
   top: 12px;
   bottom: 0;
-  left: -17px;
+  left: -15px;
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
 }
-.ls-block[haschild="true"]:focus-within > div > .block-content-wrapper::before {
+.ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
   border-color: var(--ls-block-bullet-active-color);
 }
 
@@ -106,7 +102,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
   display: none;
 }
 
-/* https://github.com/LeonWong0609/logseq-default-dark-0-saturation */
+/* https://github.com/LeonWong0609/D42ker-Logseq */
 
 /* presentation mode color tweaks */
 
@@ -702,5 +698,5 @@ hr {
 
 /* new right sidebar btn color tweaks */
 .cp__header-logo, .fade-link {
-    color: var(--ls-link-text-color,#045591) !important;
+  color: var(--ls-link-text-color,#045591) !important;
 }
