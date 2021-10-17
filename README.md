@@ -1,5 +1,7 @@
 # D42ker Logseq Theme
 
+**🎉 It's now on the [Marketplace](https://github.com/logseq/marketplace). Just go to marketplace in Logseq and add this theme 😀**
+
 (logseq-default-dark-0-saturation)
 
 Default [Logseq](https://logseq.com/) dark theme with 0 saturation background and some other tweaks.
@@ -68,6 +70,8 @@ Add the following line to your `logseq/custom.css` file.
 ```
 
 ***
+
+**🎉 现已登录 [Marketplace](https://github.com/logseq/marketplace). 在 Logseq 的 marketplace 中可以直接添加该主题 😀**
 
 默认的 [Logseq](https://logseq.com/) 深色主题，0 饱和度的背景和其他一些调整。
 
