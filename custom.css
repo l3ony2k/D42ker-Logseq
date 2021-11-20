@@ -616,9 +616,9 @@ del {
 
 #head {
   height: 2.5em;
-  backdrop-filter: blur(15px);
+  /*backdrop-filter: blur(15px);
   background-color: var(--head-bg) !important;
-  box-shadow: var(--head-bg) 0 3px 5px 0;
+  box-shadow: var(--head-bg) 0 3px 5px 0;*/
 }
 
 .h-12 {
