@@ -12,7 +12,7 @@ Most of the enhanced features were inspired by great guys on [Logseq Discord ser
 
 All these changes are based on default dark theme of Logseq.
 
-- 0 saturation background (#121212)
+- 0 saturation background 
 - Red accent color
   - link
   - highlight (mark)
@@ -81,7 +81,7 @@ Add the following line to your `logseq/custom.css` file.
 
 所有的修改都基于 Logseq 的默认深色主题
 
-- 0 饱和度主背景 (#121212)
+- 0 饱和度主背景 
 - 红色作为强调色
   - 链接
   - 默认高亮
