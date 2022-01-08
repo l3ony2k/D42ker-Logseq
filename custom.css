@@ -1,10 +1,8 @@
 /* moded with `bullet_threading.css` by @pengx17 
 https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
-
-
 :root {
   --ls-block-bullet-active-color: var(--ls-link-text-color);
-  --ls-block-bullet-threading-width: 1px;
+  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 1px);
 }
 
 .block-control {
@@ -12,7 +10,28 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 }
 
 .block-children {
-  border-left-width: var(--ls-block-bullet-threading-width);
+  border-left-color: var(--ls-guideline-color);
+  border-left-width: var(--ls-block-bullet-threading-width) !important;
+}
+
+.block-children-container {
+  position: relative;
+}
+
+.block-children-left-border {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  padding-right: 0px;
+  border-radius: 2px;
+  background-color: transparent;
+  left: -1px;
+  transition: background-color 0.2s;
+}
+
+.block-children-left-border:hover {
+  background-color: var(--ls-block-bullet-active-color);
 }
 
 .block-content-wrapper {
@@ -23,6 +42,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
   height: 14px !important;
   width: 14px !important;
   position: relative;
+  transform: translate(1px, -1px);
 }
 
 /* Block bullet path should only show in a nested block */
@@ -161,7 +181,7 @@ html[data-theme="dark"] .CodeMirror {
 }
 
 .CodeMirror .cm-tab:before {
-  content: "→";
+  content: "â†’";
   color: #80808040 !important;
   position: absolute;
 }
@@ -456,7 +476,7 @@ mark.purple {
 /* .dnd-separator{border-bottom:3px solid transparent}
   .dnd-separator-cur{border-bottom:3px solid #999} */
 
-/* what TH is this…
+/* what TH is thisâ€¦
   .resize{resize:both;overflow:hidden}
   .cp__header-logo,.fade-link{opacity:.3;transition:.3s} */
 
@@ -584,17 +604,17 @@ mark.purple {
 /* add traffic lights to prioritized tasks */
 
 .priority[href="#/page/A" i]::before {
-  content: "🔴";
+  content: "ðŸ”´";
   margin-right: 2px;
 }
 
 .priority[href="#/page/B" i]::before {
-  content: "🟡";
+  content: "ðŸŸ¡";
   margin-right: 2px;
 }
 
 .priority[href="#/page/C" i]::before {
-  content: "🟢";
+  content: "ðŸŸ¢";
   margin-right: 2px;
 }
 
