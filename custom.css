@@ -178,10 +178,11 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 
 html[data-theme="dark"] .CodeMirror {
   color: #cccccc;
+  padding-top: 5px !important;
 }
 
 .CodeMirror .cm-tab:before {
-  content: "â†’";
+  content: "→";
   color: #80808040 !important;
   position: absolute;
 }
@@ -473,15 +474,6 @@ mark.purple {
   background-color: #c097ff80;
 }
 
-/* .dnd-separator{border-bottom:3px solid transparent}
-  .dnd-separator-cur{border-bottom:3px solid #999} */
-
-/* what TH is thisâ€¦
-  .resize{resize:both;overflow:hidden}
-  .cp__header-logo,.fade-link{opacity:.3;transition:.3s} */
-
-/* decrease ((block reference)) padding */
-
 .block-ref {
   padding: 2px 0 2px 0;
   display: inline;
@@ -504,12 +496,6 @@ mark.purple {
   font-family: "Fira Code";
   padding: 1px 3px !important;
 }
-
-/* found new replacement
-  .marker-switch{padding:2px 4px;opacity:.5;font-size:85%;margin:0 2px 0 0;font-weight:600;display:inline!important;border:0 solid!important} */
-
-/* new color 
-  #repo-name{vertical-align:middle;display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:7ch} */
 
 /* menu btn tweaks */
 
@@ -604,17 +590,17 @@ mark.purple {
 /* add traffic lights to prioritized tasks */
 
 .priority[href="#/page/A" i]::before {
-  content: "ðŸ”´";
+  content: "🔴";
   margin-right: 2px;
 }
 
 .priority[href="#/page/B" i]::before {
-  content: "ðŸŸ¡";
+  content: "🟡";
   margin-right: 2px;
 }
 
 .priority[href="#/page/C" i]::before {
-  content: "ðŸŸ¢";
+  content: "🟢";
   margin-right: 2px;
 }
 
