@@ -2,14 +2,14 @@
     "name": "D42ker Logseq",
     "author": "L3ON",
     "repo": "LeonWong0609/D42ker-Logseq",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Default Logseq dark theme with 0 saturation background and some other tweaks",
     "logseq": {
       "themes": [
         {
           "name": "D42ker Logseq",
           "url": "./custom.css",
-          "description": "A darker Logseq theme.",
+          "description": "A darker Logseq theme with 0 saturation background and some other tweaks.",
           "mode": "dark"
         }
       ],

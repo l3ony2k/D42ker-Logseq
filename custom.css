@@ -160,7 +160,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 /* code mirror tweaks */
 
 .extensions__code > .CodeMirror {
-  font-family: "Fira Code";
+  font-family: "Fira Code", menlo, consolas, monospace;
   background: var(--ls-secondary-background-color);
 }
 
@@ -493,7 +493,7 @@ mark.purple {
 :not(pre) > code {
   border-radius: 3px;
   font-size: 0.9em;
-  font-family: "Fira Code";
+  font-family: "Fira Code", menlo, consolas, monospace;
   padding: 1px 3px !important;
 }
 
@@ -673,7 +673,7 @@ del {
 .query-title {
   background: #2e2e2e !important;
   font-size: 0.88em;
-  font-family: "fira code";
+  font-family: "Fira Code", menlo, consolas, monospace;
 }
 
 .custom-query {
