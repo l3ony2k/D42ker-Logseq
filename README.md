@@ -1,5 +1,7 @@
 # D42ker Logseq Theme
 
+![icon](./icon.png)
+
 **🎉 It's now on the [Marketplace](https://github.com/logseq/marketplace). Just go to marketplace in Logseq and add this theme 😀**
 
 (logseq-default-dark-0-saturation)

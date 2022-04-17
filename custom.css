@@ -178,6 +178,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 
 html[data-theme="dark"] .CodeMirror {
   color: #cccccc;
+  background: var(--ls-block-properties-background-color) !important;
   padding-top: 5px !important;
 }
 
@@ -192,11 +193,7 @@ html[data-theme="dark"] .CodeMirror .CodeMirror-selected {
 }
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-gutters {
-  border-right: 1px solid;
-}
-
-html[data-theme="dark"] .CodeMirror .CodeMirror-gutters {
-  background-color: #202020;
+  background-color: var(--ls-block-properties-background-color);
   border-color: transparent;
 }
 
@@ -205,12 +202,15 @@ html[data-theme="dark"] .CodeMirror pre.CodeMirror-line {
 }
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-linenumber {
-  text-shadow: #021014 0 -1px;
-}
-
-html[data-theme="dark"] .CodeMirror .CodeMirror-linenumber {
   color: #505050;
   padding: 0 5px;
+  text-shadow: none !important;
+}
+
+.extensions__code-lang {
+  background: var(--ls-block-properties-background-color);
+  color: #505050;
+  font-family: "Fira Code", menlo, consolas, monospace;
 }
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-gutter .CodeMirror-gutter-text {
