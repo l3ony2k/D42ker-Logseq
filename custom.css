@@ -708,3 +708,8 @@ hr {
 .cp__header-logo, .fade-link {
   color: var(--ls-link-text-color,#045591) !important;
 }
+
+/* doc mode border issue */
+.document-mode .block-children {
+  border-left: 0 !important;
+}

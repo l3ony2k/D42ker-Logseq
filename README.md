@@ -1,6 +1,10 @@
-# D42ker Logseq Theme
+<p>
+<img src="./icon.png" alt="D42ker Logseq icon" style="width:20%;display:block;margin-left:auto;margin-right:auto;"/>
+</p>
 
-![icon](./icon.png)
+<h1 align="center">D42ker Logseq Theme</h1>
+
+![Visitors](https://api.visitorbadge.io/api/combined?path=LeonWong0609%2FD42ker-Logseq&labelColor=%231a1a1a&countColor=%23db9090)
 
 **🎉 It's now on the [Marketplace](https://github.com/logseq/marketplace). Just go to marketplace in Logseq and add this theme 😀**
 
