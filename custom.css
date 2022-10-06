@@ -704,9 +704,9 @@ hr {
   opacity: 0.2;
 }
 
-/* new right sidebar btn color tweaks */
-.cp__header-logo, .fade-link {
-  color: var(--ls-link-text-color,#045591) !important;
+/* right toolbar icon color tweaks */
+div.toggle-right-sidebar, div.injected-ui-item-toolbar a.button, div.toolbar-plugins-manager a.button {
+  color: var(--ls-primary-text-color) !important;
 }
 
 /* doc mode border issue */
